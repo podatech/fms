@@ -28,6 +28,8 @@ CREATE TABLE t_users_roles(
 ALTER TABLE t_users_roles
   ADD CONSTRAINT t_users_roles_pk PRIMARY KEY(id_role);
 
+-- t_posts is representing Question
+
 CREATE TABLE t_posts(
   id_post VARCHAR(10),
   post TEXT,
@@ -104,3 +106,5 @@ REFERENCES t_posts(id_post)
   ON UPDATE CASCADE;
 
 -- Maybe some tables incorrect. The development process is still working on progress.
+-- Add post title to t_posts
+ALTER TABLE `t_posts` ADD `title` VARCHAR(255) NOT NULL AFTER `id_post`;
