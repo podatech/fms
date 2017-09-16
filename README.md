@@ -33,9 +33,9 @@ Best practice is guidelines based on design pattern and ISO.
 _Another source and documentation is still work on progress._
 
 This project is implementing this technology:
-* [Design Pattern](https://en.wikipedia.org/wiki/Design_Patterns#Creational,"Design Pattern")
-* [Microservices](http://microservices.io/,"Microservices")
-* [Spring Boot](https://projects.spring.io/spring-boot/,"Spring Boot")
+* [Design Pattern](https://en.wikipedia.org/wiki/Design_Patterns#Creational, "Design Pattern")
+* [Microservices](http://microservices.io/, "Microservices")
+* [Spring Boot](https://projects.spring.io/spring-boot/, "Spring Boot")
 
 ### Git command syntax example
 #### Git Global Setup
