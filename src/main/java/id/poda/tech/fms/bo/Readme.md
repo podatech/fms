@@ -1,0 +1,1 @@
+**Business Object**, contains business logic, used in the Business Logic part of the solution

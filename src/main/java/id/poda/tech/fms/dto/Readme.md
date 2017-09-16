@@ -1,0 +1,1 @@
+A **data transfer object** is an object that is just a simple data container, and these objects are used to carry data between different processes and between the layers of our application.
