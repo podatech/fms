@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+    #active: development
+    #active: production
+  application:
+    name: fms-service
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+      hibernate.format_sql: true

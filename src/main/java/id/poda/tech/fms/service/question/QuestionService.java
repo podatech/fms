@@ -1,13 +1,11 @@
-package id.poda.tech.fms.service;
+package id.poda.tech.fms.service.question;
 
 import id.poda.tech.fms.model.question.Question;
 import id.poda.tech.fms.repository.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class QuestionService{
-    private QuestionRepository qr;
+import java.util.List;
 
-    public void publish(Question q){
-        qr.insertData(q);
-    }
+public interface QuestionService{
+    public List<Question> showAll();
 }
